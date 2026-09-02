@@ -4,7 +4,7 @@ A single landing page built with **pure HTML + CSS** (no JavaScript, no framewor
 
 ## Live preview
 
-https://samplenimbus.netlify.app/
+https://samplenimbus.netlify.app/  
 OR
 Open `index.html` in any browser or run a local server:
 
