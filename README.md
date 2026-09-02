@@ -19,7 +19,7 @@ python -m http.server 8000
 
 | File | Purpose |
 |------|---------|
-| `index.html` | Semantic page structure: header, hero, features, how-it-works, pricing, FAQ, CTA, footer |
+| `index.html` | Semantic page structure: header, hero, features, how-it-works, pricing, FAQ, CTA and footer |
 | `styles.css` | Mobile-first styles with CSS Grid + Flexbox and two media queries |
 
 ## Responsive strategy
