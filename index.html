@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nimbus — capture ideas, organize projects, and stay in flow. A responsive landing page built with pure HTML and CSS." />
+  <title>Nimbus — Think clearly. Ship faster.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand">
+        <span class="brand-mark">N</span> Nimbus
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#showcase">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#cta" class="btn btn-primary nav-cta">Get started</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">New · Nimbus 2.0 is here</span>
+          <h1>Think clearly.<br /><span class="accent">Ship faster.</span></h1>
+          <p class="lead">
+            Nimbus is the calm workspace for your notes, tasks, and ideas.
+            Capture everything, organize anything, and find it again in seconds.
+          </p>
+          <div class="hero-actions">
+            <a href="#pricing" class="btn btn-primary btn-lg">Start free</a>
+            <a href="#showcase" class="btn btn-ghost btn-lg">See how it works</a>
+          </div>
+          <ul class="hero-points">
+            <li>No credit card required</li>
+            <li>Free forever plan</li>
+            <li>Works offline</li>
+          </ul>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="mockup">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="mockup-body">
+              <div class="mockup-line w-80"></div>
+              <div class="mockup-line w-60"></div>
+              <div class="mockup-cards">
+                <div class="mockup-card"></div>
+                <div class="mockup-card"></div>
+                <div class="mockup-card"></div>
+              </div>
+              <div class="mockup-line w-90"></div>
+              <div class="mockup-line w-40"></div>
+            </div>
+          </div>
+          <div class="blob blob-1"></div>
+          <div class="blob blob-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logos" aria-label="Trusted by teams at">
+      <div class="container">
+        <p class="logos-title">Trusted by teams at</p>
+        <ul class="logo-row">
+          <li>Acme Co.</li>
+          <li>Northwind</li>
+          <li>Globex</li>
+          <li>Initech</li>
+          <li>Umbrella</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="features" class="section features">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow">Features</span>
+          <h2>Everything you need, nothing you don't</h2>
+          <p>A focused toolkit that stays out of your way.</p>
+        </header>
+
+        <div class="feature-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">⚡</div>
+            <h3>Instant capture</h3>
+            <p>Jot ideas the moment they strike — from any device, even offline. Sync when you're back.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🗂️</div>
+            <h3>Smart organization</h3>
+            <p>Tags, nested pages, and powerful search keep every project tidy without effort.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🤝</div>
+            <h3>Real-time collab</h3>
+            <p>Edit together with your team, leave comments, and see changes as they happen.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🔒</div>
+            <h3>Private by default</h3>
+            <p>End-to-end encryption means your notes belong to you — and only you.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">📊</div>
+            <h3>Weekly reviews</h3>
+            <p>Automatic digests show what you shipped and what needs attention next.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🔌</div>
+            <h3>Plays well with others</h3>
+            <p>Connect calendar, mail, and 50+ tools so everything lives in one place.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="showcase" class="section showcase">
+      <div class="container showcase-grid">
+        <div class="showcase-steps">
+          <span class="eyebrow">How it works</span>
+          <h2>Up and running in three steps</h2>
+          <ol class="steps">
+            <li>
+              <h3>Create a workspace</h3>
+              <p>Sign up free and pick a template that fits how you work.</p>
+            </li>
+            <li>
+              <h3>Capture &amp; organize</h3>
+              <p>Add notes, tasks, and docs. Nimbus keeps them connected.</p>
+            </li>
+            <li>
+              <h3>Review &amp; ship</h3>
+              <p>Get a weekly digest of progress and never drop a thread.</p>
+            </li>
+          </ol>
+        </div>
+        <figure class="quote-card">
+          <blockquote>
+            “Nimbus replaced four apps for our team. It's the first tool that
+            actually made us calmer instead of busier.”
+          </blockquote>
+          <figcaption>
+            <span class="avatar" aria-hidden="true">AR</span>
+            <span><strong>Ananya Rao</strong><br />Product Lead, Northwind</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow">Pricing</span>
+          <h2>Simple plans for every team</h2>
+          <p>Start free. Upgrade when you're ready.</p>
+        </header>
+
+        <div class="price-grid">
+          <article class="plan">
+            <h3>Solo</h3>
+            <p class="price">$0<span>/mo</span></p>
+            <ul>
+              <li>Unlimited notes</li>
+              <li>3 projects</li>
+              <li>Offline mode</li>
+            </ul>
+            <a href="#" class="btn btn-ghost btn-block">Start free</a>
+          </article>
+
+          <article class="plan plan-featured">
+            <span class="badge">Most popular</span>
+            <h3>Team</h3>
+            <p class="price">$8<span>/user/mo</span></p>
+            <ul>
+              <li>Everything in Solo</li>
+              <li>Unlimited projects</li>
+              <li>Real-time collaboration</li>
+              <li>Version history</li>
+            </ul>
+            <a href="#" class="btn btn-primary btn-block">Choose Team</a>
+          </article>
+
+          <article class="plan">
+            <h3>Business</h3>
+            <p class="price">$16<span>/user/mo</span></p>
+            <ul>
+              <li>Everything in Team</li>
+              <li>SSO &amp; advanced security</li>
+              <li>Priority support</li>
+            </ul>
+            <a href="#" class="btn btn-ghost btn-block">Contact sales</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq">
+      <div class="container faq-grid">
+        <header class="section-head">
+          <span class="eyebrow">FAQ</span>
+          <h2>Questions, answered</h2>
+        </header>
+
+        <details>
+          <summary>Is there really a free plan?</summary>
+          <p>Yes — the Solo plan is free forever with unlimited notes and no time limit.</p>
+        </details>
+        <details>
+          <summary>Can I use Nimbus offline?</summary>
+          <p>Absolutely. Everything works offline and syncs automatically once you reconnect.</p>
+        </details>
+        <details>
+          <summary>Can I cancel anytime?</summary>
+          <p>Yes. Downgrade or cancel from settings in two clicks — no questions asked.</p>
+        </details>
+        <details>
+          <summary>Do you offer education discounts?</summary>
+          <p>Students and teachers get Team features free with a school email address.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="cta" class="cta">
+      <div class="container cta-inner">
+        <h2>Ready to clear your mind?</h2>
+        <p>Join 40,000+ makers who plan their week with Nimbus.</p>
+        <a href="#" class="btn btn-light btn-lg">Create your workspace</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="brand"><span class="brand-mark">N</span> Nimbus</a>
+        <p>The calm workspace for notes, tasks, and ideas.</p>
+      </div>
+      <nav class="footer-col" aria-label="Product links">
+        <h4>Product</h4>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#showcase">How it works</a>
+      </nav>
+      <nav class="footer-col" aria-label="Company links">
+        <h4>Company</h4>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+      </nav>
+      <nav class="footer-col" aria-label="Support links">
+        <h4>Support</h4>
+        <a href="#faq">FAQ</a>
+        <a href="#">Help center</a>
+        <a href="#">Privacy</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Nimbus Labs. Built with pure HTML &amp; CSS for the SkillAudit Week 1 challenge.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
