@@ -55,3 +55,8 @@ Screenshots for each breakpoint are included in `/screenshots`.
 - Structuring a page mobile-first keeps CSS smaller than "desktop-first + overrides"
 - Grid's `auto-fit`/explicit columns make card layouts adapt with almost no media queries
 - Flexbox handles component-level alignment; Grid handles page-level layout
+
+  ---------------------------------------------------------------------------------------------------------------------
+Designed and Managed By: 
+  [@Monesh Devadiga](https://github.com/Monesh-Devadiga)  
+CSE Student [@SCEM](https://www.sahyadri.edu.in/), Mangalore
