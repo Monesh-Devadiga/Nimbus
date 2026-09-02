@@ -1,6 +1,6 @@
 # Nimbus — Responsive Landing Page
 
-A single-page landing page built with **pure HTML + CSS** (no JavaScript, no frameworks) for the SkillAudit Week 1 challenge.
+A single landing page built with **pure HTML + CSS** (no JavaScript, no frameworks).
 
 ## Live preview
 
