@@ -1,4 +1,4 @@
-# Nimbus Responsive Landing Page
+# Nimbus - Responsive Landing Page
 
 A single landing page built with **pure HTML + CSS** (no JavaScript, no frameworks).
 
