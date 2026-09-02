@@ -15,7 +15,7 @@ npx serve .
 python -m http.server 8000
 ```
 
-## Existing
+## Exist
 
 | File | Purpose |
 |------|---------|
