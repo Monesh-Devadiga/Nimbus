@@ -9,7 +9,7 @@ OR
 Open `index.html` in any browser or  
 run a local server:
  
-```
+``` 
 npx serve .
 # or
 python -m http.server 8000
